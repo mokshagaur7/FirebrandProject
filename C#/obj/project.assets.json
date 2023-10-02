@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/Users/gmilea/.nuget/packages/": {}
+    "/Users/andreadhelpra/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/C#/C#.csproj",
+      "projectUniqueName": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/C#.csproj",
       "projectName": "C#",
-      "projectPath": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/C#/C#.csproj",
-      "packagesPath": "/Users/gmilea/.nuget/packages/",
-      "outputPath": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/C#/obj/",
+      "projectPath": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/C#.csproj",
+      "packagesPath": "/Users/andreadhelpra/.nuget/packages/",
+      "outputPath": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/gmilea/.nuget/NuGet/NuGet.Config"
+        "/Users/andreadhelpra/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"

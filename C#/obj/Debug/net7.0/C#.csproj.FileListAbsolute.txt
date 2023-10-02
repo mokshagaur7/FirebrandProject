@@ -1,0 +1,15 @@
+/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/bin/Debug/net7.0/C#
+/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/bin/Debug/net7.0/C#.deps.json
+/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/bin/Debug/net7.0/C#.runtimeconfig.json
+/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/bin/Debug/net7.0/C#.dll
+/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/bin/Debug/net7.0/C#.pdb
+/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/obj/Debug/net7.0/C#.csproj.AssemblyReference.cache
+/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/obj/Debug/net7.0/C#.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/obj/Debug/net7.0/C#.AssemblyInfoInputs.cache
+/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/obj/Debug/net7.0/C#.AssemblyInfo.cs
+/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/obj/Debug/net7.0/C#.csproj.CoreCompileInputs.cache
+/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/obj/Debug/net7.0/C#.dll
+/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/obj/Debug/net7.0/refint/C#.dll
+/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/obj/Debug/net7.0/C#.pdb
+/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/obj/Debug/net7.0/C#.genruntimeconfig.cache
+/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/obj/Debug/net7.0/ref/C#.dll
