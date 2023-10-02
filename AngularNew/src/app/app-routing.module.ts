@@ -9,7 +9,8 @@ import { ListComponent } from './list/list.component';
 const routes: Routes = [{path:'', children: [{path:'',component:HomeComponent},{path:'list',component:ListComponent}]},
 {path:'login',component:LoginComponent},
 {path:'profile',component:ProfileComponent},
-{path:'settings',component:SettingsComponent},];
+{path:'settings',component:SettingsComponent},
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
