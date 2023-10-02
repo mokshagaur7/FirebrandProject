@@ -1,27 +1,26 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
   styleUrls: ['./list.component.css']
 })
-export class ListComponent implements OnInit{
-  private url = 'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&apikey=demo';
+export class ListComponent implements OnInit {
+  symbols: any[] = [];
+  private iexCloudAPI = 'https://cloud.iexapis.com/stable/ref-data/symbols?token=pk_95d416ed0acf41dfac0ae40e933acf8f';
 
   constructor(private httpClient: HttpClient) {}
 
   ngOnInit(): void {
-    this.fetchData();
+    this.fetchSymbols();
   }
 
-  fetchData(): void {
-    this.httpClient.get<any>(this.url, {headers: {'User-Agent': 'my-app'}}).subscribe(
-      data => {
-        console.log(data);
-      },
-      error => {
-        console.log('Error:', error);
-      }
-    );
+  fetchSymbols(): void {
+    this.httpClient.get<any[]>(this.iexCloudAPI).subscribe(data => {
+      this.symbols = data;
+    }, error => {
+      console.error('Error fetching symbols:', error);
+    });
   }
 }
