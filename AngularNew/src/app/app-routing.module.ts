@@ -6,7 +6,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { SettingsComponent } from './settings/settings.component';
 import { ListComponent } from './list/list.component';
 
-const routes: Routes = [{path:'home',component:HomeComponent},
+const routes: Routes = [{path:'',component:HomeComponent},
 {path:'login',component:LoginComponent},
 {path:'profile',component:ProfileComponent},
 {path:'settings',component:SettingsComponent},
