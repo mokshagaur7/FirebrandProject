@@ -18,6 +18,7 @@ export class ListComponent implements OnInit {
 
   fetchSymbols(): void {
     this.httpClient.get<any[]>(this.iexCloudAPI).subscribe(data => {
+      console.log(data);
       this.symbols = data;
     }, error => {
       console.error('Error fetching symbols:', error);

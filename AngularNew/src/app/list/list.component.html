@@ -9,12 +9,16 @@
       <tr>
         <th>Symbol</th>
         <th>Name</th>
+        <th>Price</th>
+        <th>Currency</th>
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let symbol of symbols">
         <td>{{ symbol.symbol }}</td>
         <td>{{ symbol.name }}</td>
+        <td>{{ symbol.cik}}</td>
+        <td>{{ symbol.currency}}</td>
       </tr>
     </tbody>
   </table>
