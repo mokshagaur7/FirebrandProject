@@ -13,8 +13,8 @@
     </thead>
     <tbody>
       <tr *ngFor="let symbol of symbols">
-        <td>{{ symbol.symbol }}</td>
-        <td>{{ symbol.name }}</td>
+        <td><a [routerLink]="['/summary', symbol.symbol]">{{ symbol.symbol }}</a></td>
+        <td><a [routerLink]="['/summary', symbol.symbol]">{{ symbol.name }}</a></td>
       </tr>
     </tbody>
   </table>

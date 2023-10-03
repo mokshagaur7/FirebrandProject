@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
@@ -6,31 +7,26 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: './summary.component.html',
   styleUrls: ['./summary.component.css']
 })
-export class SummaryComponent {
-  public lineChartData: { data: number[], label: string }[] = [
-    { data: [], label: 'IBM' }
-  ];
-  public lineChartLabels: string[] = [];
-  public lineChartOptions = {
-    scaleShowVerticalLines: false,
-    responsive: true
-  };
-  public lineChartType = 'line';
+export class SummaryComponent implements OnInit{
+  symbol !: string;
+  priceData: any;
 
-  private url = 'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&apikey=demo';
-
-  constructor(private httpClient: HttpClient) {}
+  constructor(private route: ActivatedRoute, private httpClient: HttpClient) { }
 
   ngOnInit(): void {
-    this.httpClient.get<any>(this.url).subscribe(response => {
-      const timeSeries = response['Time Series (Daily)'];
+    const symbolFromRoute = this.route.snapshot.paramMap.get('symbol');
+    if (symbolFromRoute) {
+      this.symbol = symbolFromRoute;
+      this.fetchPriceData();
+    } else {
+       console.log("Symbol not found")
+    }
+  }
 
-      for (const date in timeSeries) {
-        if (timeSeries.hasOwnProperty(date)) {
-          this.lineChartLabels.push(date);
-          this.lineChartData[0].data.push(+timeSeries[date]['1. open']); // Or use other data points like '2. high'
-        }
-      }
+  fetchPriceData(): void {
+    const apiUrl = `https://cloud.iexapis.com/stable/stock/${this.symbol}/quote?token=pk_95d416ed0acf41dfac0ae40e933acf8f`;
+    this.httpClient.get(apiUrl).subscribe(data => {
+      this.priceData = data;
     });
   }
 }
