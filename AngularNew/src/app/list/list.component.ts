@@ -42,7 +42,7 @@ export class ListComponent implements OnInit {
     }
 
     const regex = new RegExp(text, 'i'); // 'i' flag for case-insensitive matching
-    this.filteredSymbols = this.symbols.filter(symbol => regex.test(symbol.symbol));
+    this.filteredSymbols = this.symbols.filter(symbol => regex.test(symbol.symbol) || regex.test(symbol.name));
   }
 
   handleSearchInputChange(text: string): void {
@@ -50,5 +50,5 @@ export class ListComponent implements OnInit {
       this.filteredSymbols = this.symbols; // Return the complete list when the search text is empty
     }
   }
-  
+
 }
