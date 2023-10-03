@@ -14,9 +14,10 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 
 const routes: Routes = [{
   path:'',component:HomeComponent, children: [
-  { path: 'list', component: ListComponent },
-  { path: 'portfolio', component: PortfolioComponent },
-  { path: 'news', component: NewsComponent },
+    { path: '', redirectTo: 'list', pathMatch: 'full'},
+    { path: 'list', component: ListComponent },
+    { path: 'portfolio', component: PortfolioComponent },
+    { path: 'news', component: NewsComponent },
 ]},
 {path:'login',component:LoginComponent},
 {path:'profile',component:ProfileComponent},
