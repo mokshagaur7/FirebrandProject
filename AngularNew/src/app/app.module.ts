@@ -12,6 +12,7 @@ import { ListComponent } from './list/list.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SummaryComponent } from './summary/summary.component';
 import { NgChartsModule } from 'ng2-charts';
+import { ChartComponent } from './chart/chart.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { NgChartsModule } from 'ng2-charts';
     ListComponent,
     NavbarComponent,
     SummaryComponent,
+    ChartComponent,
   ],
   imports: [
     BrowserModule,
