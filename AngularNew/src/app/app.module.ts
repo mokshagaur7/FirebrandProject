@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {FormsModule} from '@angular/forms';
+import { RECAPTCHA_SETTINGS,RecaptchaModule, RecaptchaSettings } from 'ng-recaptcha';
+import { RecaptchaFormsModule } from 'ng-recaptcha';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SignupComponent } from './signup/signup.component';
+import { RecaptchaComponent } from './recaptcha/recaptcha.component';
 
 @NgModule({
   declarations: [
@@ -21,14 +24,21 @@ import { SignupComponent } from './signup/signup.component';
     HomeComponent,
     ListComponent,
     NavbarComponent,
-    SignupComponent
+    SignupComponent,
+    RecaptchaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    RecaptchaFormsModule,
+    RecaptchaModule
   ],
-  providers: [],
+  providers: [{
+    provide: RECAPTCHA_SETTINGS,
+    useValue: {
+      siteKey: "6LcdO3EoAAAAADihO344u2Z79OPc9yKXaq0y7F2F",
+    } as RecaptchaSettings},],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
