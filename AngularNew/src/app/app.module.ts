@@ -18,6 +18,7 @@ import { NgChartsModule } from 'ng2-charts';
 import { ChartComponent } from './chart/chart.component';
 import { SignupComponent } from './signup/signup.component';
 import { RecaptchaComponent } from './recaptcha/recaptcha.component';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { RecaptchaComponent } from './recaptcha/recaptcha.component';
     SummaryComponent,
     ChartComponent,
     SignupComponent,
-    RecaptchaComponent
+    RecaptchaComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,

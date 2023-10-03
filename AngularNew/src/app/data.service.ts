@@ -10,6 +10,7 @@ export class DataService {
 
   private baseUrl = 'https://cloud.iexapis.com/'; // replace with the actual base URL of your API
   private token = environment.apiToken; // If using an environment token
+  
 
   constructor(private http: HttpClient) { }
 
@@ -18,5 +19,9 @@ export class DataService {
     return this.http.get<any>(url);
   }
 
+  fetchNews(symbol: string): Observable<any> {
+    const url = `${this.baseUrl}stable/stock/${symbol}/news/last/10?token=${this.token}`;
+    return this.http.get<any>(url);
+  }
   // Add other data-related methods as needed
 }

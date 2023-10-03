@@ -1,0 +1,9 @@
+<div *ngIf="newsData">
+    <div *ngFor="let article of newsData">
+      <h3>{{ article.headline }}</h3>
+      <p>{{ article.summary }}</p>
+      <a [href]="article.url" target="_blank">Read more</a>
+      <hr>
+    </div>
+  </div>
+  
