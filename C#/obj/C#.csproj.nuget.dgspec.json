@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/C#.csproj": {}
+    "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/C#/C#.csproj": {}
   },
   "projects": {
-    "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/C#.csproj": {
+    "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/C#/C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/C#.csproj",
+        "projectUniqueName": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/C#/C#.csproj",
         "projectName": "C#",
-        "projectPath": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/C#.csproj",
-        "packagesPath": "/Users/andreadhelpra/.nuget/packages/",
-        "outputPath": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/C#/obj/",
+        "projectPath": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/C#/C#.csproj",
+        "packagesPath": "/Users/gmilea/.nuget/packages/",
+        "outputPath": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/C#/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/andreadhelpra/.nuget/NuGet/NuGet.Config"
+          "/Users/gmilea/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
