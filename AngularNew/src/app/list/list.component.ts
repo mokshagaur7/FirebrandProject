@@ -11,6 +11,7 @@ export class ListComponent implements OnInit {
   //listComponent: Location[] = [];
   symbols: any[] = [];
   filteredSymbols: any[]=[];
+  isLoading: boolean = true;
   
   tokenApi: string = environment.apiToken;
   private iexCloudAPI = `https://cloud.iexapis.com/stable/ref-data/symbols?token=${this.tokenApi}`;
@@ -30,7 +31,9 @@ export class ListComponent implements OnInit {
       this.symbols = data.map(symbol => ({ ...symbol, selected: false }));
       this.filteredSymbols = data;
       //this.symbols = this.filteredSymbols;
+      this.isLoading = false;
     }, error => {
+      this.isLoading = false;
       console.error('Error fetching symbols:', error);
     });
   }

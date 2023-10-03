@@ -1,4 +1,12 @@
 <router-outlet></router-outlet>
+<div *ngIf="isLoading" class="loading-spinner">
+  <img src="assets/loading.gif" alt="Loading...">
+</div>
+
+<div *ngIf="!isLoading">
+
+
+
 <table>
     <thead>
       <tr>
@@ -21,4 +29,5 @@
       </tr>
     </tbody>
   </table>
+  </div>
   
