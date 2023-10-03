@@ -10,8 +10,14 @@ import { SignupComponent } from './signup/signup.component';
 import { EmailFormComponent } from './email-form/email-form.component';
 
 import { NewsComponent } from './news/news.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
-const routes: Routes = [{path:'',component:HomeComponent},
+const routes: Routes = [{
+  path:'',component:HomeComponent, children: [
+  { path: 'list', component: ListComponent },
+  { path: 'portfolio', component: PortfolioComponent },
+  { path: 'news', component: NewsComponent },
+]},
 {path:'login',component:LoginComponent},
 {path:'profile',component:ProfileComponent},
 {path:'settings',component:SettingsComponent},

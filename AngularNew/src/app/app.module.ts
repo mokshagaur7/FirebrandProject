@@ -22,6 +22,8 @@ import { RecaptchaComponent } from './recaptcha/recaptcha.component';
 import { EmailFormComponent } from './email-form/email-form.component';
 
 import { NewsComponent } from './news/news.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { NewsComponent } from './news/news.component';
     SignupComponent,
     RecaptchaComponent,
     EmailFormComponent,
-    NewsComponent
+    NewsComponent,
+    NavigationComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,

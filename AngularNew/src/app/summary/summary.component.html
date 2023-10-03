@@ -18,14 +18,13 @@
     <h3>Recent News:</h3>
     <ul class="news-list">
         <li *ngFor="let article of newsData" class="news-item">
+            <!-- Optionally display article image if available -->
             <img *ngIf="article.image" [src]="article.image" alt="Article Image" class="news-image"/>
             <div class="news-content">
                 <a [href]="article.url" target="_blank" class="news-title">{{ article.headline }}</a>
                 <p class="news-summary">{{ article.summary }}</p>
                 <div class="news-time">{{ article.datetime | date: 'short' }}</div>
-            </div>
-            <!-- Optionally display article image if available -->
-            
+            </div>   
         </li>
     </ul>
 </div>
