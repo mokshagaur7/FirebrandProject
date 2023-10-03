@@ -7,13 +7,14 @@ import { SettingsComponent } from './settings/settings.component';
 import { ListComponent } from './list/list.component';
 import { SummaryComponent } from './summary/summary.component';
 import { SignupComponent } from './signup/signup.component';
+import { NewsComponent } from './news/news.component';
 
 const routes: Routes = [{path:'',component:HomeComponent},
 {path:'login',component:LoginComponent},
 {path:'profile',component:ProfileComponent},
 {path:'settings',component:SettingsComponent},
 {path: 'summary/:symbol', component: SummaryComponent},
-{path: 'signup', component:SignupComponent}
+{path: 'signup', component:SignupComponent},
 ];
 
 @NgModule({
