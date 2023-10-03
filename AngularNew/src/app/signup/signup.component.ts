@@ -9,6 +9,7 @@ export class SignupComponent {
   createUser:string|null=null;
   createPass:string|null=null;
   repeatPass:string|null=null;
+  newEmail:string|null=null;
 
   constructor(private router: Router) {        
   }

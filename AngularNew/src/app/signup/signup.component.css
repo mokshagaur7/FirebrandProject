@@ -39,6 +39,9 @@ form {
   .imgcontainer {
     text-align: center;
     margin: 24px 0 12px 0;
+    max-width: 100%; /* Set maximum width to 100% of its parent container */
+    max-height: 100%; /* Set maximum height to 100% of its parent container */
+    display: block;
   }
   
   /* Avatar image */
