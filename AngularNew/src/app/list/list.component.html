@@ -9,10 +9,18 @@
       <tr>
         <th>Symbol</th>
         <th>Name</th>
+        <th>
+          <input type="text" placeholder="Search by symbol" #filter (input)="filterResults(filter.value)" (keyup)="handleSearchInputChange(filter.value)">
+
+         
+        </th>
+        
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let symbol of symbols">
+      <tr *ngFor="let symbol of filteredSymbols">
+        <!-- <td><input type="text" placeholder="Search by symbol" #filter>
+          <button class="primary" type="button" (click)="filterResults(filter.value)">Search</button></td> -->
         <td><a [routerLink]="['/summary', symbol.symbol]">{{ symbol.symbol }}</a></td>
         <td><a [routerLink]="['/summary', symbol.symbol]">{{ symbol.name }}</a></td>
       </tr>
