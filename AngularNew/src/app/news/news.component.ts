@@ -10,6 +10,7 @@ import { environment } from 'src/environments/environment';
 export class NewsComponent implements OnInit {
   newsData: any;
   tokenApi: string = environment.apiToken;
+  isLoading: boolean = true;
 
   constructor(private httpClient: HttpClient) { }
 
@@ -21,8 +22,10 @@ export class NewsComponent implements OnInit {
     const url = `https://cloud.iexapis.com/stable/stock/market/news/last/10?token=${this.tokenApi}`;
     this.httpClient.get(url).subscribe(data => {
       this.newsData = data;
+      this.isLoading = false;
     }, error => {
       console.error("Error fetching news:", error);
+      this.isLoading = false;
     });
   }
 }
