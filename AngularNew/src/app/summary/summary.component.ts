@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { HttpClient } from '@angular/common/http';
+
+import { environment } from 'src/environments/environment';
+import { DataService } from '../data.service';
+
 
 @Component({
   selector: 'app-summary',
@@ -8,25 +11,28 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./summary.component.css']
 })
 export class SummaryComponent implements OnInit{
+
   symbol !: string;
   priceData: any;
+  tokenApi : string = environment.apiToken;
 
-  constructor(private route: ActivatedRoute, private httpClient: HttpClient) { }
+  constructor(private route: ActivatedRoute, private dataService: DataService) { }
 
   ngOnInit(): void {
     const symbolFromRoute = this.route.snapshot.paramMap.get('symbol');
     if (symbolFromRoute) {
       this.symbol = symbolFromRoute;
-      this.fetchPriceData();
+      this.dataService.fetchPriceData(symbolFromRoute).subscribe(data =>{
+        this.priceData = data;
+      }, error => {
+        console.error('There was an error fetching the data', error);
+      }
+    );
     } else {
        console.log("Symbol not found")
     }
   }
 
-  fetchPriceData(): void {
-    const apiUrl = `https://cloud.iexapis.com/stable/stock/${this.symbol}/quote?token=pk_95d416ed0acf41dfac0ae40e933acf8f`;
-    this.httpClient.get(apiUrl).subscribe(data => {
-      this.priceData = data;
-    });
-  }
+  
+
 }

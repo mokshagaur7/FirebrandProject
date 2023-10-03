@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-list',
@@ -8,7 +9,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ListComponent implements OnInit {
   symbols: any[] = [];
-  private iexCloudAPI = 'https://cloud.iexapis.com/stable/ref-data/symbols?token=pk_95d416ed0acf41dfac0ae40e933acf8f';
+  tokenApi: string = environment.apiToken;
+  private iexCloudAPI = `https://cloud.iexapis.com/stable/ref-data/symbols?token=${this.tokenApi}`;
 
   constructor(private httpClient: HttpClient) {}
 
