@@ -10,7 +10,8 @@ import { environment } from 'src/environments/environment';
 export class ListComponent implements OnInit {
   //listComponent: Location[] = [];
   symbols: any[] = [];
-  filteredSymbols: any[]=[]
+  filteredSymbols: any[]=[];
+  
   tokenApi: string = environment.apiToken;
   private iexCloudAPI = `https://cloud.iexapis.com/stable/ref-data/symbols?token=${this.tokenApi}`;
 
@@ -26,6 +27,7 @@ export class ListComponent implements OnInit {
     this.httpClient.get<any[]>(this.iexCloudAPI).subscribe(data => {
       console.log(data);
       this.symbols = data;
+      this.symbols = data.map(symbol => ({ ...symbol, selected: false }));
       this.filteredSymbols = data;
       //this.symbols = this.filteredSymbols;
     }, error => {
