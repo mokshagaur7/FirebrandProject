@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import { RECAPTCHA_SETTINGS,RecaptchaModule, RecaptchaSettings } from 'ng-recaptcha';
 import { RecaptchaFormsModule } from 'ng-recaptcha';
@@ -12,6 +13,9 @@ import { SettingsComponent } from './settings/settings.component';
 import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SummaryComponent } from './summary/summary.component';
+import { NgChartsModule } from 'ng2-charts';
+import { ChartComponent } from './chart/chart.component';
 import { SignupComponent } from './signup/signup.component';
 import { RecaptchaComponent } from './recaptcha/recaptcha.component';
 
@@ -24,12 +28,16 @@ import { RecaptchaComponent } from './recaptcha/recaptcha.component';
     HomeComponent,
     ListComponent,
     NavbarComponent,
+    SummaryComponent,
+    ChartComponent,
     SignupComponent,
     RecaptchaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
+    NgChartsModule,
     FormsModule,
     RecaptchaFormsModule,
     RecaptchaModule

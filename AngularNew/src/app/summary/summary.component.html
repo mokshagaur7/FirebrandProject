@@ -1,0 +1,12 @@
+<div class="summary-container">
+    <div class="summary-content">
+        <h1>{{ symbol }}</h1>
+        <h2>{{priceData?.companyName}}</h2>
+        <p>Latest price: {{ priceData?.latestPrice }}</p>
+        <p>Average total volume: {{priceData?.avgTotalVolume }}</p>
+        <p>Change: {{priceData?.change }}</p>
+        <p>Change (%): {{priceData?.changePercent }}</p>
+        <p>Market Cap: {{priceData?.marketCap}}</p>
+    </div>
+    <app-chart [symbol]="symbol"></app-chart>
+ </div>

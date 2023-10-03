@@ -4,4 +4,18 @@
     </ul>
 </nav>
 
-<H1>works</H1>
+<table>
+    <thead>
+      <tr>
+        <th>Symbol</th>
+        <th>Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let symbol of symbols">
+        <td><a [routerLink]="['/summary', symbol.symbol]">{{ symbol.symbol }}</a></td>
+        <td><a [routerLink]="['/summary', symbol.symbol]">{{ symbol.name }}</a></td>
+      </tr>
+    </tbody>
+  </table>
+  

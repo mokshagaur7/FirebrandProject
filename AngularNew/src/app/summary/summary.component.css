@@ -1,0 +1,21 @@
+.summary-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem; /* Spacing between summary and chart. Adjust as required. */
+    width: 100%;
+    max-width: 1200px;  /* Adjust for your needs, but this will prevent it from stretching too wide on large screens */
+    margin: 0 auto;     /* Centers the container on the page */
+    padding: 1rem; 
+ }
+ 
+ .summary-content {
+    flex: 1;   /* Allocates twice the space to summary as compared to chart */
+    padding: 1rem;  /* Space within the summary content. Adjust as required. */
+ }
+ 
+ app-chart {
+    flex: 2;   /* Takes up the space not occupied by summary-content */
+    width: 100%;   /* Makes sure the chart takes up the whole allocated space */
+    padding: 1rem;  /* Space within the chart. Adjust as required. */
+ }
