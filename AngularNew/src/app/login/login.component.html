@@ -1,0 +1,42 @@
+<form action="action_page.php" method="post">
+    <div class="imgcontainer">
+      <img src="assets/2189569-middle.png" alt="Avatar" class="avatar">
+    </div>
+  
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required [(ngModel)]="newUser">
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required [(ngModel)]="newPass">
+
+      <div class="container-fluid py-3">
+        <form #form="ngForm">
+          <div class="row mt-3">
+            <div class="col-sm-12 mb-2">
+              <re-captcha id="recaptcha" name="recaptcha" #recaptcha="ngModel" [(ngModel)]="token" required [class.is-invalid]="recaptcha.invalid && (recaptcha.dirty || recaptcha.touched)"></re-captcha>
+              <div *ngIf="recaptcha.invalid && (recaptcha.dirty || recaptcha.touched)" class="invalid-feedback">
+                <div *ngIf="recaptcha.errors?.['required']">This field is required.</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 mb-2">
+              <button type="submit" class="btn btn-sm btn-primary" (click)="navigate(form)">Login</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="button" >Sign up</button>
+    </div>
+  </form>
+
+  
