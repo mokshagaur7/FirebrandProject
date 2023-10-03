@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
+import {FormsModule} from '@angular/forms';
+import { RECAPTCHA_SETTINGS,RecaptchaModule, RecaptchaSettings } from 'ng-recaptcha';
+import { RecaptchaFormsModule } from 'ng-recaptcha';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +16,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SummaryComponent } from './summary/summary.component';
 import { NgChartsModule } from 'ng2-charts';
 import { ChartComponent } from './chart/chart.component';
+import { SignupComponent } from './signup/signup.component';
+import { RecaptchaComponent } from './recaptcha/recaptcha.component';
 
 @NgModule({
   declarations: [
@@ -25,14 +30,23 @@ import { ChartComponent } from './chart/chart.component';
     NavbarComponent,
     SummaryComponent,
     ChartComponent,
+    SignupComponent,
+    RecaptchaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NgChartsModule
+    NgChartsModule,
+    FormsModule,
+    RecaptchaFormsModule,
+    RecaptchaModule
   ],
-  providers: [],
+  providers: [{
+    provide: RECAPTCHA_SETTINGS,
+    useValue: {
+      siteKey: "6LcdO3EoAAAAADihO344u2Z79OPc9yKXaq0y7F2F",
+    } as RecaptchaSettings},],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
