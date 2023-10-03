@@ -9,6 +9,7 @@ import { SummaryComponent } from './summary/summary.component';
 import { SignupComponent } from './signup/signup.component';
 import { EmailFormComponent } from './email-form/email-form.component';
 
+import { NewsComponent } from './news/news.component';
 
 const routes: Routes = [{path:'',component:HomeComponent},
 {path:'login',component:LoginComponent},

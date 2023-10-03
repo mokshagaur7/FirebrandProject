@@ -21,6 +21,7 @@ import { SignupComponent } from './signup/signup.component';
 import { RecaptchaComponent } from './recaptcha/recaptcha.component';
 import { EmailFormComponent } from './email-form/email-form.component';
 
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { EmailFormComponent } from './email-form/email-form.component';
     ChartComponent,
     SignupComponent,
     RecaptchaComponent,
-    EmailFormComponent
+    EmailFormComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,

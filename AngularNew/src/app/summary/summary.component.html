@@ -1,3 +1,4 @@
+<!-- Displaying price data -->
 <div class="summary-container">
     <div class="summary-content">
         <h1>{{ symbol }}</h1>
@@ -10,3 +11,21 @@
     </div>
     <app-chart [symbol]="symbol"></app-chart>
  </div>
+
+ <!-- Displaying news data -->
+<!-- Displaying news data -->
+<div *ngIf="newsData && newsData.length > 0" class="news-section">
+    <h3>Recent News:</h3>
+    <ul class="news-list">
+        <li *ngFor="let article of newsData" class="news-item">
+            <img *ngIf="article.image" [src]="article.image" alt="Article Image" class="news-image"/>
+            <div class="news-content">
+                <a [href]="article.url" target="_blank" class="news-title">{{ article.headline }}</a>
+                <p class="news-summary">{{ article.summary }}</p>
+                <div class="news-time">{{ article.datetime | date: 'short' }}</div>
+            </div>
+            <!-- Optionally display article image if available -->
+            
+        </li>
+    </ul>
+</div>
