@@ -14,7 +14,7 @@ export class LoginComponent {
   }
 
   navigate(){
-    this.router.navigate(['/']);
+    this.router.navigate(['/signup']);
   }
 
 }
