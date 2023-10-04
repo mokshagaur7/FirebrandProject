@@ -1778,19 +1778,46 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "/Users/andreadhelpra/.nuget/packages/": {}
+=======
+<<<<<<< HEAD
+    "/Users/gmilea/.nuget/packages/": {}
+=======
+    "/Users/mokshagaur/.nuget/packages/": {}
+>>>>>>> cd6866efcb720dca4b1a60736a7ad04f06415108
+>>>>>>> 07ae843619b973653d3b4345715ce3bd62b2081e
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/back-end.csproj",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/back-end.csproj",
+      "projectName": "back-end",
+      "projectPath": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/back-end.csproj",
+      "packagesPath": "/Users/gmilea/.nuget/packages/",
+      "outputPath": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/gmilea/.nuget/NuGet/NuGet.Config"
+=======
+      "projectUniqueName": "/Users/mokshagaur/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/FireBrand/FirebrandProjectTeamLondon/back-end/back-end.csproj",
+>>>>>>> 07ae843619b973653d3b4345715ce3bd62b2081e
       "projectName": "back-end",
       "projectPath": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/back-end.csproj",
       "packagesPath": "/Users/andreadhelpra/.nuget/packages/",
       "outputPath": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
         "/Users/andreadhelpra/.nuget/NuGet/NuGet.Config"
+=======
+        "/Users/mokshagaur/.nuget/NuGet/NuGet.Config"
+>>>>>>> cd6866efcb720dca4b1a60736a7ad04f06415108
+>>>>>>> 07ae843619b973653d3b4345715ce3bd62b2081e
       ],
       "originalTargetFrameworks": [
         "net7.0"
