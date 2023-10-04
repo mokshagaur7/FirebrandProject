@@ -17,6 +17,7 @@
 
       <label for="repeatpsw"><b>Re-Enter Password</b></label>
       <input type="password" placeholder="Re-Enter Password" name="repeatpsw" required [(ngModel)]="repeatPass">
+      <div *ngIf="password != repeatPass">This password do not match.</div>
   
       
       <!-- <label>
@@ -28,7 +29,7 @@
     <div class="container" style="background-color:#f1f1f1">
       <!-- <button type="button" class="cancelbtn">Cancel</button> -->
       <button type="button" (click)="onsubmit()">Sign up</button>
-      <button type="submit" (click)="navigate()">Already a member? Login! </button>
+      <button type="submit" routerLink="/login">Already a member? Login! </button>
     </div>
 
     
