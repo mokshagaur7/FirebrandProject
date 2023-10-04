@@ -1,1 +1,17 @@
-<p>portfolio works!</p>
+<table>
+    <thead>
+      <tr>
+        <th>Symbol</th>
+        <th>Name</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let portfolio of portfolios">
+        <td><a [routerLink]="['/portfolio', portfolio.id]">{{ portfolio.id }}</a></td>
+        <td><a [routerLink]="['/portfolio', portfolio.name]">{{ portfolio.name }}</a></td>
+      </tr>
+    </tbody>
+  </table>
+  
+
