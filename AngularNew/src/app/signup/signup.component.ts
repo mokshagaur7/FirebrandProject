@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 @Component({
@@ -11,11 +12,15 @@ export class SignupComponent {
   repeatPass:string|null=null;
   newEmail:string|null=null;
 
-  constructor(private router: Router) {        
+  constructor(private router: Router,private http:HttpClient) {        
   }
 
   navigate(){
     this.router.navigate(['/']);
+  }
+
+  onsubmit(){
+
   }
 }
 
