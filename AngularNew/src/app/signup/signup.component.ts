@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import * as crypto from "crypto-js";
 
@@ -8,7 +8,7 @@ import * as crypto from "crypto-js";
   templateUrl: './signup.component.html',
   styleUrls: ['./signup.component.css']
 })
-export class SignupComponent {
+export class SignupComponent implements OnInit {
   username:string|null=null;
   password:string|null=null;
   repeatPass:string|null=null;
@@ -23,7 +23,7 @@ export class SignupComponent {
     this.router.navigate(['/']);
   }
 
-  getinfo(){
+  ngOnInit(): void {
     this.http.get(this.apiUrl).subscribe(
       (data:any) => {
         this.users = data;

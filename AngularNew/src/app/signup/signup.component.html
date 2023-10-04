@@ -38,3 +38,9 @@
         <button type="button" class="cancelbtn" (click)="navigate()">Cancel</button>
     </div>
   </form>
+
+  <tr *ngFor="let portfolio of users">
+    <td><a>{{ portfolio.id }}</a></td>
+    <td><a>{{ portfolio.name }}</a></td>
+   
+  </tr>

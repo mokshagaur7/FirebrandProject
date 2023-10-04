@@ -45,23 +45,29 @@ public class SignupController : ControllerBase
             try
             {
                 sqlconnection.Open();
+                
                 List<User> userlist = new List<User>();
                 string sqlQ = "Select * from Users";
 
                 using (MySqlCommand command =  new MySqlCommand(sqlQ,sqlconnection)){
+
                     using (MySqlDataReader reader = command.ExecuteReader()){
+
                         while(reader.Read()){
-                            userlist.Add(new User(){
+                            userlist.Add(new User{
                                 Id = reader.GetInt32("user_id"),
                                 Username = reader.GetString("username"),
                                 Password = reader.GetString("password"),
                                 PortfolioIds = reader.GetString("portfolioID"),
                                 Email = reader.GetString("email")
                             });
+
+                            
                         }
+
                     }
                 }
-                Console.WriteLine(userlist);
+
                 return userlist;
             }
             catch (Exception e){
@@ -78,7 +84,7 @@ public class SignupController : ControllerBase
     {
         try
             {
-                return Ok(portfolios);
+                return Ok(GetAll());
             }
             catch (Exception ex)
             {
