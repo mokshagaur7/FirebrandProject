@@ -1,20 +1,78 @@
-  ul {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-  }
-
-  table {
-    width: 100%;
-    border-collapse: collapse;
+.container {
+  text-align: center;
+  margin: 20px auto; /* Adjust as needed for spacing */
+  max-width: 90%; /* Adjust the max-width of the container */
 }
 
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px; /* Adjust as needed for spacing */
 }
 
-th {
-    background-color: #f2f2f2;
-    text-align: left;
+.tab {
+  margin: 0 10px; /* Adjust as needed for spacing */
 }
+
+.search-bar {
+  display: block;
+  width: 80%; /* Adjust the width as needed */
+  padding: 10px; /* Add padding for better visibility and larger size */
+  border: 1px solid #ccc; /* Add a border for visibility */
+  border-radius: 5px; /* Optional: Add some border-radius for rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box-shadow */
+  margin: 10px auto; /* Adjust as needed for spacing */
+  text-align: center; /* Center the placeholder text */
+}
+
+.search-bar::placeholder {
+  text-align: center; /* Center the placeholder text */
+}
+
+.symbol-table {
+  width: 100%; /* Adjust the width of the table */
+}
+
+.symbol-table th, .symbol-table td {
+  padding: 6px; /* Adjust the padding for the table cells */
+  font-family: 'Helvetica Neue', sans-serif;
+ 
+}
+.symbol-table th {
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+
+.load-more-button {
+  display: block;
+  width: 150px; /* Adjust the width of the button */
+  margin: 20px auto 0; /* Adjust the margin for the button */
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.symbol-table th input[type="checkbox"] {
+  width: 20px; /* Adjust the width to make the checkboxes bigger */
+  height: 20px; /* Adjust the height to make the checkboxes bigger */
+  border: 2px solid #333; /* Add a border around the checkboxes */
+  border-radius: 3px; /* Optional: Add some border-radius for rounded corners */
+  margin-right: 5px; /* Adjust the margin between the checkbox and text */
+}
+
+.symbol-table th input[type="checkbox"]:checked {
+  background-color: #333; /* Optional: Change the background color when checked */
+}
+.symbol-table {
+  width: 100%;
+  border-collapse: collapse; /* Collapse borders to avoid double borders */
+}
+.symbol-table th, .symbol-table td {
+  padding: 10px;
+  border: 1px solid #ccc; /* Add a border around each table cell */
+}
+
+
+
+
