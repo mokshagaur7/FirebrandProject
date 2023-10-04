@@ -11,7 +11,8 @@ public class Program{
             try
             {
                 sqlconnection.Open();
-                //GetAll(sqlconnection);
+                GetAll(sqlconnection);
+                //InsertIntoUsers(5,"ewqeq","321312","1321",sqlconnection);
 
 
                 
