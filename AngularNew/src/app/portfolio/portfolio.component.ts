@@ -8,6 +8,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class PortfolioComponent implements OnInit{
   portfolios: any[] = [];
+  selectedPortfolio: any;
 
   constructor(private http:HttpClient) { }
 
@@ -16,6 +17,15 @@ export class PortfolioComponent implements OnInit{
       (data:any) => {
         this.portfolios = data;
       })
+  }
+
+  addToPortfolio(): void {
+    if (this.selectedPortfolio) {
+      // Add your logic to handle adding the selected portfolio to the portfolio list
+      console.log('Adding to portfolio:', this.selectedPortfolio);
+    } else {
+      console.log('Please select a portfolio.');
+    }
   }
 
 }

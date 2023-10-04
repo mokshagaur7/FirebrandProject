@@ -8,4 +8,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = C_
+<<<<<<< HEAD
 build_property.ProjectDir = /Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/C#/
+=======
+build_property.ProjectDir = /Users/mokshagaur/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/FireBrand/FirebrandProjectTeamLondon/C#/
+>>>>>>> cd6866efcb720dca4b1a60736a7ad04f06415108

@@ -10,8 +10,11 @@
       <tr *ngFor="let portfolio of portfolios">
         <td><a [routerLink]="['/portfolio', portfolio.id]">{{ portfolio.id }}</a></td>
         <td><a [routerLink]="['/portfolio', portfolio.name]">{{ portfolio.name }}</a></td>
+       
       </tr>
     </tbody>
   </table>
+
+  <button (click)="addToPortfolio()">Add to Portfolio</button>
   
 
