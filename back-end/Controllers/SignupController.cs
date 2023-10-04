@@ -1,3 +1,4 @@
+using System;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using MySql.Data.MySqlClient;
@@ -6,11 +7,7 @@ using MySql.Data.MySqlClient;
 [ApiController]
 public class SignupController : ControllerBase
 {
-    private static readonly List<User> users = new List<User>
-    {
-        new User { Id = 1, Username = "EVs", Password = "password", PortfolioIds = new int[] {1}, Email = "anything" }
-    };
-    
+
     public static void InsertIntoUsers(int user_id,string name,string password,string portfolio,string email){
         string connectionStr = "server=127.0.0.1;database=StockPortfolioDB;user=root;password=MyPassword1234";
         using(MySqlConnection sqlconnection = new MySqlConnection(connectionStr)){
@@ -42,39 +39,64 @@ public class SignupController : ControllerBase
     //     }
     // }
 
-    // public static void GetAll(MySqlConnection sqlconnection){
-    //     string sqlQ = "Select * from Users";
+    public static List<User> GetAll(){
+         string connectionStr = "server=127.0.0.1;database=StockPortfolioDB;user=root;password=MyPassword1234";
+        using(MySqlConnection sqlconnection = new MySqlConnection(connectionStr)){
+            try
+            {
+                sqlconnection.Open();
+                List<User> userlist = new List<User>();
+                string sqlQ = "Select * from Users";
 
-    //     using (MySqlCommand command =  new MySqlCommand(sqlQ,sqlconnection)){
-    //         using (MySqlDataReader reader = command.ExecuteReader()){
-    //             while(reader.Read()){
-    //                 int PersonID = reader.GetInt32("user_id");
-    //                 string LastName = reader.GetString("username");
-    //                 string FirstName = reader.GetString("password");
-    //                 string city = reader.GetString("portfolioID");
+                using (MySqlCommand command =  new MySqlCommand(sqlQ,sqlconnection)){
+                    using (MySqlDataReader reader = command.ExecuteReader()){
+                        while(reader.Read()){
+                            userlist.Add(new User(){
+                                Id = reader.GetInt32("user_id"),
+                                Username = reader.GetString("username"),
+                                Password = reader.GetString("password"),
+                                PortfolioIds = reader.GetString("portfolioID"),
+                                Email = reader.GetString("email")
+                            });
+                        }
+                    }
+                }
+                Console.WriteLine(userlist);
+                return userlist;
+            }
+            catch (Exception e){
+                return portfolios;
+                Console.WriteLine($"Error: {e.Message}");
+            }
+        }
+    }
 
-    //                 Console.WriteLine($"ID:{PersonID},Name: {FirstName},{city},{LastName}");
-    //             }
-    //         }
-    //     }
-    // }
-
+    private static readonly List<User> portfolios = GetAll();
     
-//     [HttpGet]
-//     public IActionResult Get()
-//    {
-//         return Ok(users);
-//    }
+    [HttpGet]
+    public IActionResult Get()
+    {
+        try
+            {
+                return Ok(portfolios);
+            }
+            catch (Exception ex)
+            {
+                // Handle any exceptions or errors that occur during registration.
+                return BadRequest(new { Message = "Error registering user.", Error = ex.Message });
+            }
+    }
 
- [HttpPost]
-        public IActionResult RegisterUser([FromBody] SignupRequest signupData)
-        {
+
+    [HttpPost]
+    public IActionResult RegisterUser([FromBody] SignupRequest signupData)
+    {
             // Handle the incoming data and perform user registration logic here.
             // The [FromBody] attribute tells ASP.NET to deserialize the JSON or XML request body into the `signupData` parameter.
 
             try
             {
-                InsertIntoUsers(6,signupData.Username,signupData.Password,"2",signupData.Email);
+                InsertIntoUsers(9,signupData.Username,signupData.Password,"2",signupData.Email);
                 return Ok(new { Message = "User registered successfully." });
             }
             catch (Exception ex)
@@ -82,14 +104,15 @@ public class SignupController : ControllerBase
                 // Handle any exceptions or errors that occur during registration.
                 return BadRequest(new { Message = "Error registering user.", Error = ex.Message });
             }
-        }
+    }
+}
 
    public class User
     {
         public int? Id { get; set; }
         public string? Username { get; set; }
          public string? Password { get; set; }
-        public int[]? PortfolioIds { get; set; }
+        public string? PortfolioIds { get; set; }
         public string? Email  {get;set;}
     }
 
@@ -101,5 +124,5 @@ public class SignupController : ControllerBase
         // Add other properties as needed
     }
 
-}
+
 
