@@ -26,6 +26,10 @@ export class LoginComponent {
     }
 
     console.debug(`Token [${this.token}] generated`);
+    this.router.navigate(['/']);
+  }
+
+  toSingup(){
     this.router.navigate(['/signup']);
   }
 

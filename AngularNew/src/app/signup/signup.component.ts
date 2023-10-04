@@ -22,9 +22,9 @@ export class SignupComponent {
 
   onsubmit(){
     const newSignupData = {
-      username: "hello",
-      password: "password",
-      email: "email"
+      Username: this.username,
+      Password: this.password,
+      Email: this.newEmail
       // Add other properties as needed in SignupRequest
     };
 
