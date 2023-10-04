@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mokshagaur/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/FireBrand/FirebrandProjectTeamLondon/back-end/back-end.csproj": {}
+    "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/back-end.csproj": {}
   },
   "projects": {
-    "/Users/mokshagaur/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/FireBrand/FirebrandProjectTeamLondon/back-end/back-end.csproj": {
+    "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/back-end.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mokshagaur/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/FireBrand/FirebrandProjectTeamLondon/back-end/back-end.csproj",
+        "projectUniqueName": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/back-end.csproj",
         "projectName": "back-end",
-        "projectPath": "/Users/mokshagaur/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/FireBrand/FirebrandProjectTeamLondon/back-end/back-end.csproj",
-        "packagesPath": "/Users/mokshagaur/.nuget/packages/",
-        "outputPath": "/Users/mokshagaur/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/FireBrand/FirebrandProjectTeamLondon/back-end/obj/",
+        "projectPath": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/back-end.csproj",
+        "packagesPath": "/Users/andreadhelpra/.nuget/packages/",
+        "outputPath": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mokshagaur/.nuget/NuGet/NuGet.Config"
+          "/Users/andreadhelpra/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -38,6 +38,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
