@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/Users/andreadhelpra/.nuget/packages/": {}
+    "/Users/mokshagaur/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/back-end.csproj",
+      "projectUniqueName": "/Users/mokshagaur/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/FireBrand/FirebrandProjectTeamLondon/back-end/back-end.csproj",
       "projectName": "back-end",
-      "projectPath": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/back-end.csproj",
-      "packagesPath": "/Users/andreadhelpra/.nuget/packages/",
-      "outputPath": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/obj/",
+      "projectPath": "/Users/mokshagaur/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/FireBrand/FirebrandProjectTeamLondon/back-end/back-end.csproj",
+      "packagesPath": "/Users/mokshagaur/.nuget/packages/",
+      "outputPath": "/Users/mokshagaur/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/FireBrand/FirebrandProjectTeamLondon/back-end/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/andreadhelpra/.nuget/NuGet/NuGet.Config"
+        "/Users/mokshagaur/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
