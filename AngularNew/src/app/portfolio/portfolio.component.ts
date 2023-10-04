@@ -23,10 +23,10 @@ export class PortfolioComponent implements OnInit{
   createPortfolio(): void {
     const newPortfolioData = {
       // Define the properties of the new portfolio here
-      id: 12345,
-      name: 'New Portfolio Name',
-      stockIds: {} // Example: Replace with the actual name
-      // Add any other properties your C# back-end expects
+      portfolioId: 12,
+      userId: 1,
+      stockId: 0,
+      portfolioName: 'New Portfolio Name',
     };
   
     this.http.post(this.apiUrl, newPortfolioData).subscribe(
