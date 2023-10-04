@@ -10,10 +10,10 @@
 
 
       <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required [(ngModel)]="createUser">
+      <input type="text" placeholder="Enter Username" name="uname" required [(ngModel)]="username">
   
       <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required [(ngModel)]="createPass">
+      <input type="password" placeholder="Enter Password" name="psw" required [(ngModel)]="password">
 
       <label for="repeatpsw"><b>Re-Enter Password</b></label>
       <input type="password" placeholder="Re-Enter Password" name="repeatpsw" required [(ngModel)]="repeatPass">
@@ -27,7 +27,7 @@
   
     <div class="container" style="background-color:#f1f1f1">
       <!-- <button type="button" class="cancelbtn">Cancel</button> -->
-      <button type="button">Sign up</button>
+      <button type="button" (click)="onsubmit()">Sign up</button>
       <button type="submit" (click)="navigate()">Already a member? Login! </button>
     </div>
 
