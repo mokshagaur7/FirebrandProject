@@ -51,3 +51,15 @@
     object-fit: cover;
     border-radius: 5px;
  }
+ .loading-spinner {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh; /* Adjust the height of the loading spinner */
+ }
+ 
+ .loading-spinner img {
+   width: 70px; /* Adjust the width of the loading GIF */
+   height: 70px; /* Adjust the height of the loading GIF */
+ }
+ 
