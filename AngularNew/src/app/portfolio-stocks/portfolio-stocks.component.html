@@ -1,0 +1,16 @@
+<table>
+    <thead>
+      <tr>
+        <th>Symbol</th>
+        <th>Name</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let stock of portfolioStocks">
+        <td><a [routerLink]="['/stocklist', stock.symbol]">{{ stock.symbol }}</a></td>
+        <td><a [routerLink]="['/stocklist', stock.name]">{{ stock.name }}</a></td>
+       
+      </tr>
+    </tbody>
+  </table>
