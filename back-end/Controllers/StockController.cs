@@ -61,6 +61,40 @@ public IActionResult Get([FromQuery] int? portfolioId)
     }
 }
 
+    public static void InsertIntoStocks(string Symbol, string Name, int PortfolioId){
+        string connectionStr = "server=127.0.0.1;database=StockPortfolioDB;user=root;password=Chitarra23?";
+        using(MySqlConnection sqlconnection = new MySqlConnection(connectionStr)){
+            try
+            {
+                sqlconnection.Open();
+                string sqlQuery = $"INSERT INTO Stocks (symbol, name, portfolio_id) VALUES ('{Symbol}', '{Name}', {PortfolioId});" ;
+                using (MySqlCommand cmd = new MySqlCommand(sqlQuery,sqlconnection)){ 
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception e){
+                Console.WriteLine($"Error: {e.Message}");
+            }
+        }
+    }
+
+    [HttpPost]
+    public IActionResult AddStockToPortfolio([FromBody] Stock newPortfolioStockData)
+    {
+        // Handle the incoming data and perform user registration logic here.
+        // The [FromBody] attribute tells ASP.NET to deserialize the JSON or XML request body into the `signupData` parameter.
+
+        try
+        {
+            InsertIntoStocks(newPortfolioStockData.Symbol, newPortfolioStockData.Name, newPortfolioStockData.PortfolioId);
+            return Ok(new { Message = "Portfolio created successfully." });
+        }
+        catch (Exception ex)
+        {
+            // Handle any exceptions or errors that occur during registration.
+            return BadRequest(new { Message = "Error creating portfolio.", Error = ex.Message });
+        }
+    }
 
     public class Stock
     {

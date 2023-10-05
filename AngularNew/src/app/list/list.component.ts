@@ -13,9 +13,13 @@ export class ListComponent implements OnInit {
   filteredSymbols: any[]=[];
   displayedItems: number = 15; // Initial number of items to display
   isLoading: boolean = true;
+  // Create an array to store selected stocks
+  selectedStocks: any[] = [];
+
   
   tokenApi: string = environment.apiToken;
   private iexCloudAPI = `https://cloud.iexapis.com/stable/ref-data/symbols?token=${this.tokenApi}`;
+  apiUrl : string = 'http://localhost:5040/api/stock';
 
   constructor(private httpClient: HttpClient) {}
 
@@ -61,6 +65,38 @@ export class ListComponent implements OnInit {
     if (!text) {
       this.filteredSymbols = this.symbols; // Return the complete list when the search text is empty
     }
+  }
+
+  addToPortfolio(): void {
+    // Filter the selected stocks
+    this.selectedStocks = this.symbols.filter(symbol => symbol.selected);
+
+    if (this.selectedStocks.length === 0) {
+      // Show a message or handle the case when no stocks are selected
+      console.log('No stocks selected to add to the portfolio.');
+      return;
+    }
+
+    this.selectedStocks.forEach((selectedStock) => {
+      const newPortfolioStockData = {
+        // Define the properties of the new stock here
+        symbol: selectedStock.symbol,
+        name: selectedStock.name,
+        portfolioId: 1, //TODO: change to get portfolio ID to add the stock to
+      };
+
+      this.httpClient.post<any>(this.apiUrl, newPortfolioStockData)
+      .subscribe(
+        response => {
+          console.log('Stocks added to the portfolio:', response);
+          // You can also update the UI or perform any other actions here as needed.
+        },
+        error => {
+          console.error('Error adding stocks to the portfolio:', error);
+        }
+      );
+
+    });
   }
 
 }
