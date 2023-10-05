@@ -1778,31 +1778,19 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "/Users/gmilea/.nuget/packages/": {}
-=======
-    "/Users/andreadhelpra/.nuget/packages/": {}
->>>>>>> 9ed1c50c06639daf09350a33a38c60c28fb571e6
+    "/Users/mokshagaur/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/back-end.csproj",
-=======
-      "projectUniqueName": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/back-end.csproj",
->>>>>>> 9ed1c50c06639daf09350a33a38c60c28fb571e6
+      "projectUniqueName": "/Users/mokshagaur/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/FireBrand/FirebrandProjectTeamLondon/back-end/back-end.csproj",
       "projectName": "back-end",
-      "projectPath": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/back-end.csproj",
-      "packagesPath": "/Users/gmilea/.nuget/packages/",
-      "outputPath": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/obj/",
+      "projectPath": "/Users/mokshagaur/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/FireBrand/FirebrandProjectTeamLondon/back-end/back-end.csproj",
+      "packagesPath": "/Users/mokshagaur/.nuget/packages/",
+      "outputPath": "/Users/mokshagaur/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/FireBrand/FirebrandProjectTeamLondon/back-end/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-<<<<<<< HEAD
-        "/Users/gmilea/.nuget/NuGet/NuGet.Config"
-=======
-        "/Users/andreadhelpra/.nuget/NuGet/NuGet.Config"
->>>>>>> 9ed1c50c06639daf09350a33a38c60c28fb571e6
+        "/Users/mokshagaur/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -1860,11 +1848,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-<<<<<<< HEAD
-      "message": "Problem reading the cache file /Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-=======
-      "message": "Problem reading the cache file /Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
->>>>>>> 9ed1c50c06639daf09350a33a38c60c28fb571e6
+      "message": "Problem reading the cache file /Users/mokshagaur/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/FireBrand/FirebrandProjectTeamLondon/back-end/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }
