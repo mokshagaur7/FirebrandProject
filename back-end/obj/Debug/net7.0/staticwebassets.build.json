@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "t7nS/zCfiMyVkdXAy7RKdJOHzsm8oRROSWNbZx5Q/eQ=",
+=======
+  "Hash": "deZO7Ps1cERIyFT9JuHuKoRdiM+UzPD4PkpL76cT0Fg=",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
   "Source": "back-end",
   "BasePath": "_content/back-end",
   "Mode": "Default",
@@ -10,17 +14,28 @@
     {
       "Name": "back-end/wwwroot",
       "Source": "back-end",
+<<<<<<< HEAD
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/obj/Debug/net7.0/scopedcss/bundle/back-end.styles.css",
       "SourceId": "back-end",
       "SourceType": "Computed",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/obj/Debug/net7.0/scopedcss/bundle/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/obj/Debug/net7.0/scopedcss/bundle/back-end.styles.css",
+      "SourceId": "back-end",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/obj/Debug/net7.0/scopedcss/bundle/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "back-end.styles.css",
       "AssetKind": "All",
@@ -31,13 +46,21 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/obj/Debug/net7.0/scopedcss/bundle/back-end.styles.css"
+=======
+      "OriginalItemSpec": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/obj/Debug/net7.0/scopedcss/bundle/back-end.styles.css"
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
     },
     {
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/obj/Debug/net7.0/scopedcss/projectbundle/back-end.bundle.scp.css",
       "SourceId": "back-end",
       "SourceType": "Computed",
+<<<<<<< HEAD
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/obj/Debug/net7.0/scopedcss/projectbundle/",
+=======
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/obj/Debug/net7.0/scopedcss/projectbundle/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "back-end.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +71,21 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/obj/Debug/net7.0/scopedcss/projectbundle/back-end.bundle.scp.css"
+=======
+      "OriginalItemSpec": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/obj/Debug/net7.0/scopedcss/projectbundle/back-end.bundle.scp.css"
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
     },
     {
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/css/site.css",
       "SourceId": "back-end",
       "SourceType": "Discovered",
+<<<<<<< HEAD
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +99,17 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/favicon.ico",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/favicon.ico",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +123,17 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/js/site.js",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/js/site.js",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -102,10 +147,17 @@
       "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -119,10 +171,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -136,10 +195,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -153,10 +219,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -170,10 +243,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -187,10 +267,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -204,10 +291,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -221,10 +315,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -238,10 +339,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -255,10 +363,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -272,10 +387,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -289,10 +411,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -306,10 +435,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -323,10 +459,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -340,10 +483,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -357,10 +507,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -374,10 +531,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -391,10 +555,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -408,10 +579,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -425,10 +603,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -442,10 +627,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -459,10 +651,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -476,10 +675,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -493,10 +699,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -510,10 +723,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -527,10 +747,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -544,10 +771,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -561,10 +795,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -578,10 +819,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -595,10 +843,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -612,10 +867,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -629,10 +891,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -646,10 +915,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -663,10 +939,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -680,10 +963,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -697,10 +987,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -714,10 +1011,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -731,10 +1035,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -748,10 +1059,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -765,10 +1083,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -782,10 +1107,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -799,10 +1131,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -816,10 +1155,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -833,10 +1179,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -850,10 +1203,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/bootstrap/LICENSE",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -867,10 +1227,17 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -884,10 +1251,17 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -901,10 +1275,17 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -918,10 +1299,17 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -935,10 +1323,17 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -952,10 +1347,17 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -969,10 +1371,17 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -986,10 +1395,17 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery-validation/LICENSE.md",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1003,10 +1419,17 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery/dist/jquery.js",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1020,10 +1443,17 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery/dist/jquery.min.js",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1037,10 +1467,17 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery/dist/jquery.min.map",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1054,10 +1491,17 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "back-end",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/",
+=======
+      "Identity": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery/LICENSE.txt",
+      "SourceId": "back-end",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/",
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
       "BasePath": "_content/back-end",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

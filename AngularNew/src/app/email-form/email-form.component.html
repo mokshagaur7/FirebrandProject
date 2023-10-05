@@ -1,1 +1,29 @@
-<h1>aasa</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="email-form.component.css">
+  <title>Email Form</title>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Email To:</h2>
+    <input type="email" placeholder="Enter recipient's email address" [(ngModel)]="emailto">
+
+    <h2>Email From:</h2>
+    <input type="email" placeholder="Enter your email address here" [(ngModel)]="emailfrom">
+
+    <h2>Subject:</h2>
+    <input type="text" placeholder="Enter your subject here" [(ngModel)]="subject">
+
+    <h2>Message:</h2>
+    <textarea placeholder="Please explain your message here in detail" [(ngModel)]="message"></textarea>
+
+    <button type="submit" id="submitBtn" (click)="onsubmit()">Submit</button>
+  </div>
+</body>
+
+</html>

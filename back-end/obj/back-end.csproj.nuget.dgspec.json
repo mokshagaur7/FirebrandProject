@@ -1,7 +1,11 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/back-end.csproj": {}
+=======
+    "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/back-end.csproj": {}
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
   },
   "projects": {
     "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/back-end.csproj": {
@@ -14,7 +18,11 @@
         "outputPath": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+<<<<<<< HEAD
           "/Users/andreadhelpra/.nuget/NuGet/NuGet.Config"
+=======
+          "/Users/gmilea/.nuget/NuGet/NuGet.Config"
+>>>>>>> f25dae57139347b180f94b0db1a1996ffeb09c9b
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -39,6 +47,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
             "MySql.Data": {
               "target": "Package",
               "version": "[8.1.0, )"
