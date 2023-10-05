@@ -7,13 +7,41 @@ using MySql.Data.MySqlClient;
 [ApiController]
 public class PortfolioController : ControllerBase
 {
-    private static readonly List<Portfolio> Portfolios = new List<Portfolio>
-    {
-        new Portfolio { PortfolioId = 1, UserId = 1, StockId = 0, PortfolioName = "EVs" },
-        new Portfolio { PortfolioId = 2, UserId = 1, StockId = 1, PortfolioName = "American stocks"},
-        new Portfolio { PortfolioId = 3, UserId = 1, StockId = 2, PortfolioName = "European stocks"},
-        new Portfolio { PortfolioId = 4, UserId = 1, StockId = 3, PortfolioName = "Chinese stocks"}
-    };
+    private static readonly List<Portfolio> Portfolios = GetAll();
+
+    public static List<Portfolio> GetAll(){
+        string connectionStr = "server=127.0.0.1;database=StockPortfolioDB;user=root;password=Chitarra23?";
+        using(MySqlConnection sqlconnection = new MySqlConnection(connectionStr)){
+            try
+            {
+                sqlconnection.Open();
+                
+                List<Portfolio> Portfolios = new List<Portfolio>();
+                string sqlQ = "Select * from Portfolios";
+
+                using (MySqlCommand command =  new MySqlCommand(sqlQ,sqlconnection)){
+
+                    using (MySqlDataReader reader = command.ExecuteReader()){
+
+                        while(reader.Read()){
+                            Portfolios.Add(new Portfolio{
+                                PortfolioId = reader.GetInt32("portfolio_id"),
+                                UserId = reader.GetInt32("user_id"),
+                                StockId = reader.GetInt32("stock_id"),
+                                PortfolioName = reader.GetString("portfolio_name")
+                            });
+                        }
+                    }
+                }
+
+                return Portfolios;
+            }
+            catch (Exception e){
+                return Portfolios;
+                Console.WriteLine($"Error: {e.Message}");
+            }
+        }
+    }
 
     [HttpGet]
     public IActionResult Get()
