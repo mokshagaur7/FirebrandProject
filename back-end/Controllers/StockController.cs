@@ -46,10 +46,21 @@ public class StockController : ControllerBase
     }
 
     [HttpGet]
-    public IActionResult Get()
+public IActionResult Get([FromQuery] int? portfolioId)
+{
+    if (portfolioId == null)
     {
+        // If portfolioId is not provided, return all stocks
         return Ok(PortfolioStocks);
     }
+    else
+    {
+        // Filter stocks based on the provided portfolioId
+        var stocksForPortfolio = PortfolioStocks.Where(stock => stock.PortfolioId == portfolioId).ToList();
+        return Ok(stocksForPortfolio);
+    }
+}
+
 
     public class Stock
     {
