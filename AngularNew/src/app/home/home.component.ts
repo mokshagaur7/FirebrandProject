@@ -8,14 +8,5 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  newUser!:string ;
 
-  constructor(private http:HttpClient, private route: ActivatedRoute) { }
-
-  ngOnInit(): void {
-    // Access the portfolioId from the URL using ActivatedRoute
-    this.route.params.subscribe(params => {
-      this.newUser = params['newUser'];
-    });
-  }
 }

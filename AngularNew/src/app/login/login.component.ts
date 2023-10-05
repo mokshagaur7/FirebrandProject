@@ -39,7 +39,7 @@ export class LoginComponent {
     if((this.users.some(e => e.username === this.newUser)) && (this.users.some(e => e.password === crypto.SHA256(this.newPass!).toString()))){
       
       console.debug(`Token [${this.token}] generated`);
-      this.router.navigate(['/',this.newUser]);
+      this.router.navigate(['/']);
     }
     else{
       this.message = "The user or password are wrong!";
