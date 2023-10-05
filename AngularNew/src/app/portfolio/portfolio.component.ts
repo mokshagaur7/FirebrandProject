@@ -29,9 +29,9 @@ export class PortfolioComponent implements OnInit{
       })
     const newPortfolioData = {
       // Define the properties of the new portfolio here
-      portfolioId: 12,
-      userId: 1,
-      stockId: 0,
+      portfolioId: 5,
+      userId: 9,
+      stockId: 1,
       portfolioName: 'New Portfolio Name',
     };
   

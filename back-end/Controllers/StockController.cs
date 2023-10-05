@@ -11,7 +11,7 @@ public class StockController : ControllerBase
     private static readonly List<Stock> PortfolioStocks = GetAll();
 
     public static List<Stock> GetAll(){
-        string connectionStr = "server=127.0.0.1;database=StockPortfolioDB;user=root;password=Chitarra23?";
+        string connectionStr = "server=127.0.0.1;database=StockPortfolioDB;user=root;password=MyPassword1234";
             using(MySqlConnection sqlconnection = new MySqlConnection(connectionStr))
             {
                 try
@@ -62,7 +62,7 @@ public IActionResult Get([FromQuery] int? portfolioId)
 }
 
     public static void InsertIntoStocks(string Symbol, string Name, int PortfolioId){
-        string connectionStr = "server=127.0.0.1;database=StockPortfolioDB;user=root;password=Chitarra23?";
+        string connectionStr = "server=127.0.0.1;database=StockPortfolioDB;user=root;password=MyPassword1234";
         using(MySqlConnection sqlconnection = new MySqlConnection(connectionStr)){
             try
             {

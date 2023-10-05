@@ -1,11 +1,7 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/back-end.csproj": {}
-=======
-    "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/back-end.csproj": {}
->>>>>>> 9ed1c50c06639daf09350a33a38c60c28fb571e6
   },
   "projects": {
     "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/back-end.csproj": {
@@ -18,11 +14,7 @@
         "outputPath": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
           "/Users/gmilea/.nuget/NuGet/NuGet.Config"
-=======
-          "/Users/andreadhelpra/.nuget/NuGet/NuGet.Config"
->>>>>>> 9ed1c50c06639daf09350a33a38c60c28fb571e6
         ],
         "originalTargetFrameworks": [
           "net7.0"

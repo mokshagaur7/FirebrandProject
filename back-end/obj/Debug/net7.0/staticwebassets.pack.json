@@ -1,11 +1,7 @@
 {
   "Files": [
     {
-<<<<<<< HEAD
       "Id": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/obj/Debug/net7.0/scopedcss/projectbundle/back-end.bundle.scp.css",
-=======
-      "Id": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/obj/Debug/net7.0/scopedcss/projectbundle/back-end.bundle.scp.css",
->>>>>>> 9ed1c50c06639daf09350a33a38c60c28fb571e6
       "PackagePath": "staticwebassets/back-end.bundle.scp.css"
     },
     {
@@ -245,11 +241,7 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-<<<<<<< HEAD
       "Id": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery/dist/jquery.min.map",
-=======
-      "Id": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/wwwroot/lib/jquery/dist/jquery.min.map",
->>>>>>> 9ed1c50c06639daf09350a33a38c60c28fb571e6
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
