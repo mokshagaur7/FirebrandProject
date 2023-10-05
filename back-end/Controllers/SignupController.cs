@@ -102,7 +102,7 @@ public class SignupController : ControllerBase
 
             try
             {
-                InsertIntoUsers(9,signupData.Username,signupData.Password,"2",signupData.Email);
+                InsertIntoUsers(signupData.Id,signupData.Username,signupData.Password,"0",signupData.Email);
                 return Ok(new { Message = "User registered successfully." });
             }
             catch (Exception ex)
@@ -124,6 +124,7 @@ public class SignupController : ControllerBase
 
     public class SignupRequest
     {
+        public int Id{get;set;}
         public string Username { get; set; }
         public string Password { get; set; }
         public string Email { get; set; }
