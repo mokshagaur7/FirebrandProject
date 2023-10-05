@@ -9,7 +9,9 @@ import { Router } from '@angular/router';
 })
 export class PortfolioComponent implements OnInit{
   portfolios : any[] = [];
+  idsss : string | null = null;
   apiUrl : string = 'http://localhost:5040/api/portfolio';
+  api: string = 'http://localhost:5040/api/id';
 
   constructor(private http:HttpClient,  private router: Router) { }
 
@@ -21,6 +23,10 @@ export class PortfolioComponent implements OnInit{
   }
 
   createPortfolio(): void {
+    this.http.get(this.apiUrl).subscribe(
+      (data:any) => {
+        this.idsss = data;
+      })
     const newPortfolioData = {
       // Define the properties of the new portfolio here
       portfolioId: 12,
