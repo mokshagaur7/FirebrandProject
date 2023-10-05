@@ -10,7 +10,7 @@ public class PortfolioController : ControllerBase
     private static readonly List<Portfolio> Portfolios = GetAll();
 
     public static List<Portfolio> GetAll(){
-        string connectionStr = "server=127.0.0.1;database=StockPortfolioDB;user=root;password=MyPassword1234";
+        string connectionStr = "server=127.0.0.1;database=StockPortfolioDB;user=root;password=Chitarra23?";
         using(MySqlConnection sqlconnection = new MySqlConnection(connectionStr)){
             try
             {
@@ -28,7 +28,7 @@ public class PortfolioController : ControllerBase
                                 PortfolioId = reader.GetInt32("portfolio_id"),
                                 UserId = reader.GetInt32("user_id"),
                                 StockId = reader.GetInt32("stock_id"),
-                                PortfolioName = reader.GetString("name")
+                                PortfolioName = reader.GetString("portfolio_name")
                             });
                         }
                     }
