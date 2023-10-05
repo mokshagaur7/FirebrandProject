@@ -1,0 +1,40 @@
+/* Apply styling to the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-top: 20px; /* Add some space between the two tables */
+  }
+  
+  /* Style the table header */
+  table th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  /* Style the table rows */
+  table tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style table cells */
+  table td {
+    padding: 10px;
+  }
+  
+  /* Style links inside the table cells */
+  table td a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  /* Add a hover effect to links */
+  table td a:hover {
+    background-color: #f2f2f2;
+    color: #007bff; /* Change the color on hover */
+    border-radius: 3px;
+    padding: 3px 6px;
+  }
+  

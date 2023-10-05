@@ -13,4 +13,9 @@
        
       </tr>
     </tbody>
-  </table>
+</table>
+
+  <!-- Display "Your portfolio is empty" if there are no stocks -->
+<div *ngIf="portfolioStocks.length === 0">
+    Your portfolio is empty.
+  </div>

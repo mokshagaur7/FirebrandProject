@@ -11,6 +11,7 @@ import { EmailFormComponent } from './email-form/email-form.component';
 
 import { NewsComponent } from './news/news.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { PortfolioStocksComponent } from './portfolio-stocks/portfolio-stocks.component';
 
 const routes: Routes = [{
   path:'',component:HomeComponent, children: [
@@ -18,13 +19,14 @@ const routes: Routes = [{
     { path: 'list', component: ListComponent },
     { path: 'portfolio', component: PortfolioComponent },
     { path: 'news', component: NewsComponent },
+    { path: 'portfolio-stocks/:portfolioId', component: PortfolioStocksComponent },
 ]},
 {path:'login',component:LoginComponent},
 {path:'profile',component:ProfileComponent},
 {path:'settings',component:SettingsComponent},
 {path: 'summary/:symbol', component: SummaryComponent},
 {path: 'signup', component:SignupComponent},
-{path: 'email', component:EmailFormComponent}
+{path: 'email', component:EmailFormComponent},
 ];
 
 @NgModule({
