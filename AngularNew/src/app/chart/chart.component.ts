@@ -3,6 +3,7 @@ import { DataService } from '../data.service';
 import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
 import { Chart } from 'chart.js';
+import { NgModule } from '@angular/core';
 
 @Component({
   selector: 'app-chart',

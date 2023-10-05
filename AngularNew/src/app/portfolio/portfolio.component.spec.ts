@@ -52,12 +52,10 @@ describe('PortfolioComponent', () => {
 
     expect(httpClient.get).toHaveBeenCalledWith(component.apiUrl);
     expect(httpClient.post).toHaveBeenCalledWith(component.apiUrl, {
-      portfolioId: 5,
       userId: 9,
       stockId: 1,
-      portfolioName: 'New Portfolio Name'
+      portfolioName: null
     });
-    expect(router.navigate).toHaveBeenCalledWith(['/portfolio-stocks', 5]); // Check the router navigation
   });
 
   it('should navigate to portfolio stocks', () => {

@@ -1,12 +1,14 @@
 import { TestBed } from '@angular/core/testing';
 
 import { DataService } from './data.service';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { FormsModule } from '@angular/forms';
 
 describe('DataService', () => {
   let service: DataService;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
+    TestBed.configureTestingModule({imports: [HttpClientTestingModule,FormsModule]})
     service = TestBed.inject(DataService);
   });
 
