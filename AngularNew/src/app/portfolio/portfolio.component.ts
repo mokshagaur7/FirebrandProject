@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { response } from 'express';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-portfolio',
@@ -11,7 +11,7 @@ export class PortfolioComponent implements OnInit{
   portfolios : any[] = [];
   apiUrl : string = 'http://localhost:5040/api/portfolio';
 
-  constructor(private http:HttpClient) { }
+  constructor(private http:HttpClient,  private router: Router) { }
 
   ngOnInit(): void {
     this.http.get(this.apiUrl).subscribe(
@@ -37,5 +37,11 @@ export class PortfolioComponent implements OnInit{
           console.error('Error creating portfolio:', error)
         }
     )
+  }
+  
+  navigateToPortfolioStocks(portfolioId: number): void {
+    // Navigate to the portfolio-stocks component with the portfolioId as a parameter
+    console.log()
+    this.router.navigate(['/portfolio-stocks', portfolioId]);
   }
 }

@@ -1778,19 +1778,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/gmilea/.nuget/packages/": {}
+<<<<<<< HEAD
+    "/Users/andreadhelpra/.nuget/packages/": {}
+=======
+    "/Users/mokshagaur/.nuget/packages/": {}
+>>>>>>> 8c88ffb468050376aec652c14417b94833e1ba1f
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/back-end.csproj",
+<<<<<<< HEAD
+      "projectUniqueName": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/back-end.csproj",
       "projectName": "back-end",
-      "projectPath": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/back-end.csproj",
-      "packagesPath": "/Users/gmilea/.nuget/packages/",
-      "outputPath": "/Users/gmilea/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/London Project/FirebrandProjectTeamLondon/back-end/obj/",
+      "projectPath": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/back-end.csproj",
+      "packagesPath": "/Users/andreadhelpra/.nuget/packages/",
+      "outputPath": "/Users/andreadhelpra/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/week-3/FirebrandProjectTeamLondon/back-end/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/gmilea/.nuget/NuGet/NuGet.Config"
+        "/Users/andreadhelpra/.nuget/NuGet/NuGet.Config"
+=======
+      "projectUniqueName": "/Users/mokshagaur/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/FireBrand/FirebrandProjectTeamLondon/back-end/back-end.csproj",
+      "projectName": "back-end",
+      "projectPath": "/Users/mokshagaur/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/FireBrand/FirebrandProjectTeamLondon/back-end/back-end.csproj",
+      "packagesPath": "/Users/mokshagaur/.nuget/packages/",
+      "outputPath": "/Users/mokshagaur/Library/CloudStorage/OneDrive-Deloitte(O365D)/Desktop/FireBrand/FirebrandProjectTeamLondon/back-end/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/mokshagaur/.nuget/NuGet/NuGet.Config"
+>>>>>>> 8c88ffb468050376aec652c14417b94833e1ba1f
       ],
       "originalTargetFrameworks": [
         "net7.0"

@@ -47,3 +47,11 @@ ul {
     position: sticky;
     top: 0;
   }
+
+  
+  
+  nav .logo img {
+    max-width: 400px /* Ensure the image takes up the maximum width within the container */
+  }
+  
+  

@@ -3,6 +3,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     font-family: Arial, sans-serif;
+    margin-top: 20px; /* Add some space between the two tables */
   }
   
   /* Style the table header */

@@ -1,20 +1,15 @@
 <table>
     <thead>
       <tr>
-        <th>Symbol</th>
-        <th>Name</th>
+        <th>Your Portfolios</th>
         
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let portfolio of portfolios">
-        <td><a [routerLink]="['/portfolio', portfolio.portfolioId]">{{ portfolio.portfolioId }}</a></td>
-        <td><a [routerLink]="['/portfolio', portfolio.portfolioName]">{{ portfolio.portfolioName }}</a></td>
-       
+        <td><a (click)="navigateToPortfolioStocks(portfolio.portfolioId)">{{ portfolio.portfolioName }}</a></td>
       </tr>
     </tbody>
   </table>
 
   <button (click)="createPortfolio()">Create New Portfolio</button>
-  
-

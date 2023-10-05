@@ -24,6 +24,7 @@ import { EmailFormComponent } from './email-form/email-form.component';
 import { NewsComponent } from './news/news.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { PortfolioStocksComponent } from './portfolio-stocks/portfolio-stocks.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     EmailFormComponent,
     NewsComponent,
     NavigationComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    PortfolioStocksComponent
   ],
   imports: [
     BrowserModule,
