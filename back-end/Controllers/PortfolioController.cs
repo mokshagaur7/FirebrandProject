@@ -28,7 +28,7 @@ public class PortfolioController : ControllerBase
                                 PortfolioId = reader.GetInt32("portfolio_id"),
                                 UserId = reader.GetInt32("user_id"),
                                 StockId = reader.GetInt32("stock_id"),
-                                PortfolioName = reader.GetString("name")
+                                PortfolioName = reader.GetString("portofolio_name")
                             });
                         }
                     }
@@ -49,13 +49,13 @@ public class PortfolioController : ControllerBase
         return Ok(GetAll());
     }
 
-    public static void InsertIntoPortfolio(int PortfolioId, int UserId, int StockId, string PortfolioName){
+    public static void InsertIntoPortfolio(int UserId, int StockId, string PortfolioName){
         string connectionStr = "server=127.0.0.1;database=StockPortfolioDB;user=root;password=MyPassword1234";
         using(MySqlConnection sqlconnection = new MySqlConnection(connectionStr)){
             try
             {
                 sqlconnection.Open();
-                string sqlQuery = $"Insert into Portfolios values ({PortfolioId},{UserId},{StockId},'{PortfolioName}' )" ;
+                string sqlQuery = $"Insert into Portfolios (user_id,stock_id,portofolio_name) values ({UserId},{StockId},'{PortfolioName}' )" ;
                 using (MySqlCommand cmd = new MySqlCommand(sqlQuery,sqlconnection)){ 
                     cmd.ExecuteNonQuery();
                 }
@@ -74,7 +74,7 @@ public class PortfolioController : ControllerBase
 
             try
             {
-                InsertIntoPortfolio(newPortfolioData.PortfolioId, newPortfolioData.UserId, newPortfolioData.StockId, newPortfolioData.PortfolioName);
+                InsertIntoPortfolio(newPortfolioData.UserId, newPortfolioData.StockId, newPortfolioData.PortfolioName);
                 return Ok(new { Message = "Portfolio created successfully." });
             }
             catch (Exception ex)
@@ -95,7 +95,6 @@ public class PortfolioController : ControllerBase
 
     public class NewPortfolioRequest
     {
-        public int PortfolioId { get; set; }
         public int UserId {get; set;}
         public int StockId { get; set; }
         public string PortfolioName { get; set; }

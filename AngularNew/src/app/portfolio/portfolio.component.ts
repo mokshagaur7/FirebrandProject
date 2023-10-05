@@ -12,6 +12,7 @@ export class PortfolioComponent implements OnInit{
   idsss : string | null = null;
   apiUrl : string = 'http://localhost:5040/api/portfolio';
   api: string = 'http://localhost:5040/api/id';
+  portfolioName: string | null= null;
 
   constructor(private http:HttpClient,  private router: Router) { }
 
@@ -28,11 +29,9 @@ export class PortfolioComponent implements OnInit{
         this.idsss = data;
       })
     const newPortfolioData = {
-      // Define the properties of the new portfolio here
-      portfolioId: 5,
       userId: 9,
       stockId: 1,
-      portfolioName: 'New Portfolio Name',
+      portfolioName: this.portfolioName,
     };
   
     this.http.post(this.apiUrl, newPortfolioData).subscribe(
