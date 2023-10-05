@@ -18,6 +18,7 @@ export class LoginComponent {
   message: string|null=null;
 
   apiUrl : string = 'http://localhost:5040/api/login';
+  api:string = 'http://localhost:5040/api/id';
   constructor(private router: Router,private http:HttpClient) {      
     this.token = undefined;  
   }
@@ -37,7 +38,17 @@ export class LoginComponent {
       return;
     }
     if((this.users.some(e => e.username === this.newUser)) && (this.users.some(e => e.password === crypto.SHA256(this.newPass!).toString()))){
-
+      const newSignupData = {
+        UserrrrId : 1
+      };
+      this.http.post(this.api, newSignupData).subscribe(
+        (response: any) => {
+          console.log('User registered:', response);
+        },
+        (error: any) => {
+          console.error('Error registering user:', error);
+        }
+      );
       console.debug(`Token [${this.token}] generated`);
       this.router.navigate(['/']);
     }
