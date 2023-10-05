@@ -9,9 +9,9 @@ using MySql.Data.MySqlClient;
 [Route("api/[controller]")]
 [ApiController]
 
-public class EmailController
+public class EmailController : ControllerBase
 {
-        sendEmail static void (string emailto,string emailfrom,string subject,string message){
+        public static void sendEmail (string emailto,string emailfrom,string subject,string message){
             var email = new MimeMessage();
 
             email.To.Add(new MailboxAddress("gh", emailto));
@@ -20,15 +20,7 @@ public class EmailController
             email.Subject = subject;
 
             email.Body = new TextPart ("plain") {
-                Text = @"Hey Alice,
-
-            What are you up to this weekend? Monica is throwing one of her parties on
-            Saturday and I was hoping you could make it.
-
-            Will you be my +1?
-
-            -- Joey
-            "
+                Text = message
             };
             
             using (var smtp = new SmtpClient())

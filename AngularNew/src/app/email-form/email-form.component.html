@@ -11,18 +11,18 @@
 <body>
   <div class="container">
     <h2>Email To:</h2>
-    <input type="email" placeholder="Enter recipient's email address" id="emailTo">
+    <input type="email" placeholder="Enter recipient's email address" [(ngModel)]="emailto">
 
     <h2>Email From:</h2>
-    <input type="email" placeholder="Enter your email address here" id="emailFrom">
+    <input type="email" placeholder="Enter your email address here" [(ngModel)]="emailfrom">
 
     <h2>Subject:</h2>
-    <input type="text" placeholder="Enter your subject here" id="subject">
+    <input type="text" placeholder="Enter your subject here" [(ngModel)]="subject">
 
     <h2>Message:</h2>
-    <textarea placeholder="Please explain your message here in detail" id="message"></textarea>
+    <textarea placeholder="Please explain your message here in detail" [(ngModel)]="message"></textarea>
 
-    <button type="submit" id="submitBtn">Submit</button>
+    <button type="submit" id="submitBtn" (click)="onsubmit()">Submit</button>
   </div>
 </body>
 
