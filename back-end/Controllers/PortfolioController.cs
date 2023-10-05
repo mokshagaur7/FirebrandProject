@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-
+using System;
 using MySql.Data.MySqlClient;
 
 [Route("api/[controller]")]
@@ -10,13 +10,12 @@ public class PortfolioController : ControllerBase
     private static readonly List<Portfolio> Portfolios = GetAll();
 
     public static List<Portfolio> GetAll(){
-        string connectionStr = "server=127.0.0.1;database=StockPortfolioDB;user=root;password=Chitarra23?";
+        string connectionStr = "server=127.0.0.1;database=StockPortfolioDB;user=root;password=MyPassword1234";
         using(MySqlConnection sqlconnection = new MySqlConnection(connectionStr)){
             try
             {
                 sqlconnection.Open();
-                
-                List<Portfolio> Portfolios = new List<Portfolio>();
+                List<Portfolio> port = new List<Portfolio>();
                 string sqlQ = "Select * from Portfolios";
 
                 using (MySqlCommand command =  new MySqlCommand(sqlQ,sqlconnection)){
@@ -24,17 +23,18 @@ public class PortfolioController : ControllerBase
                     using (MySqlDataReader reader = command.ExecuteReader()){
 
                         while(reader.Read()){
-                            Portfolios.Add(new Portfolio{
+                            Console.WriteLine(1);
+                            port.Add(new Portfolio{
                                 PortfolioId = reader.GetInt32("portfolio_id"),
                                 UserId = reader.GetInt32("user_id"),
                                 StockId = reader.GetInt32("stock_id"),
-                                PortfolioName = reader.GetString("portfolio_name")
+                                PortfolioName = reader.GetString("name")
                             });
                         }
                     }
                 }
 
-                return Portfolios;
+                return port;
             }
             catch (Exception e){
                 return Portfolios;
@@ -46,7 +46,7 @@ public class PortfolioController : ControllerBase
     [HttpGet]
     public IActionResult Get()
     {
-        return Ok(Portfolios);
+        return Ok(GetAll());
     }
 
     public static void InsertIntoPortfolio(int PortfolioId, int UserId, int StockId, string PortfolioName){
@@ -84,6 +84,7 @@ public class PortfolioController : ControllerBase
             }
         }
 
+
     public class Portfolio
     {
         public int PortfolioId { get; set; }
@@ -100,4 +101,6 @@ public class PortfolioController : ControllerBase
         public string PortfolioName { get; set; }
         // Add other properties as needed
     }
+
+   
 }
