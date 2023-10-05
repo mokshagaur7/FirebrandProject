@@ -14,6 +14,7 @@ export class SignupComponent implements OnInit {
   repeatPass:string|null=null;
   newEmail:string|null=null;
   users: any[] = [];
+  message : string | null=null;
 
   apiUrl : string = 'http://localhost:5040/api/signup';
   constructor(private router: Router,private http:HttpClient) {        
@@ -31,23 +32,30 @@ export class SignupComponent implements OnInit {
   }
 
   onsubmit(){
-    const newSignupData = {
-      Username: this.username,
-      Password:  crypto.SHA256(this.password!).toString(),
-      Email: this.newEmail
-      // Add other properties as needed in SignupRequest
-    };
+    if(!(this.users.some(e => e.username === this.username))){
+        const newSignupData = {
+          Id : this.users.length+1,
+          Username: this.username,
+          Password:  crypto.SHA256(this.password!).toString(),
+          Email: this.newEmail
+          // Add other properties as needed in SignupRequest
+        };
 
-    this.http.post(this.apiUrl, newSignupData).subscribe(
-      (response: any) => {
-        console.log('User registered:', response);
-      },
-      (error: any) => {
-        console.error('Error registering user:', error);
-      }
-    );
+        this.http.post(this.apiUrl, newSignupData).subscribe(
+          (response: any) => {
+            console.log('User registered:', response);
+          },
+          (error: any) => {
+            console.error('Error registering user:', error);
+          }
+        );
+        this.router.navigate(['/login']);
+    }
+    else{
+      this.message = "Choose a different username!";
+    }
 
-    this.router.navigate(['/login']);
+    
   }
 }
 
