@@ -36,7 +36,14 @@
 
     <button *ngIf="displayedItems < symbols.length" (click)="loadMore()" class="load-more-button">Load More</button>
     <!-- Add to Portfolio button -->
-<button (click)="addToPortfolio()" class="add-to-portfolio-button">Add to Portfolio</button>
+    <div *ngIf="showPortfolioDropdown" class="portfolio-dropdown">
+      <label>Select Portfolio:</label>
+      <select [(ngModel)]="selectedPortfolioId">
+        <option value="null">Select a Portfolio</option>
+        <option *ngFor="let portfolio of portfolios" [value]="portfolio.portfolioId">{{ portfolio.portfolioName }}</option>
+      </select>
+    </div>
+    <button (click)="addToPortfolio()" class="add-to-portfolio-button">Add to Portfolio</button>
   </div>
 </body>
 </html>

@@ -15,17 +15,23 @@ export class ListComponent implements OnInit {
   isLoading: boolean = true;
   // Create an array to store selected stocks
   selectedStocks: any[] = [];
+  showPortfolioDropdown: boolean = false;
+
+
+  // Data for add button
+  portfolios: any[] = []; // Array to store user's portfolios
+  selectedPortfolioId: number | null = null; // Variable to store the selected portfolio ID
 
   
   tokenApi: string = environment.apiToken;
   private iexCloudAPI = `https://cloud.iexapis.com/stable/ref-data/symbols?token=${this.tokenApi}`;
   apiUrl : string = 'http://localhost:5040/api/stock';
+  portfolioApiUrl : string = 'http://localhost:5040/api/portfolio';
 
   constructor(private httpClient: HttpClient) {}
 
   ngOnInit(): void {
     this.fetchSymbols();
-
     
   }
 
@@ -68,6 +74,16 @@ export class ListComponent implements OnInit {
   }
 
   addToPortfolio(): void {
+    
+
+    // Fetch user's portfolios from your backend
+    this.httpClient.get<any[]>(this.portfolioApiUrl).subscribe(data => {
+      this.portfolios = data;
+    });
+
+    // When the "Add to Portfolio" button is clicked, toggle the showPortfolioDropdown property
+    this.showPortfolioDropdown = !this.showPortfolioDropdown;
+
     // Filter the selected stocks
     this.selectedStocks = this.symbols.filter(symbol => symbol.selected);
 
@@ -77,26 +93,29 @@ export class ListComponent implements OnInit {
       return;
     }
 
-    this.selectedStocks.forEach((selectedStock) => {
-      const newPortfolioStockData = {
-        // Define the properties of the new stock here
-        symbol: selectedStock.symbol,
-        name: selectedStock.name,
-        portfolioId: 1, //TODO: change to get portfolio ID to add the stock to
-      };
+    if (this.selectedPortfolioId !== null) {
 
-      this.httpClient.post<any>(this.apiUrl, newPortfolioStockData)
-      .subscribe(
-        response => {
-          console.log('Stocks added to the portfolio:', response);
-          // You can also update the UI or perform any other actions here as needed.
-        },
-        error => {
-          console.error('Error adding stocks to the portfolio:', error);
-        }
-      );
+      this.selectedStocks.forEach((selectedStock) => {
+        const newPortfolioStockData = {
+          // Define the properties of the new stock here
+          symbol: selectedStock.symbol,
+          name: selectedStock.name,
+          portfolioId: this.selectedPortfolioId, //TODO: change to get portfolio ID to add the stock to
+        };
 
-    });
+        this.httpClient.post<any>(this.apiUrl, newPortfolioStockData)
+        .subscribe(
+          response => {
+            console.log('Stocks added to the portfolio:', response);
+            // You can also update the UI or perform any other actions here as needed.
+          },
+          error => {
+            console.error('Error adding stocks to the portfolio:', error);
+          }
+        );
+
+      });
+    }
   }
 
 }
