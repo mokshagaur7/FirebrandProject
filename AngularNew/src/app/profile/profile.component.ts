@@ -15,6 +15,7 @@ export class ProfileComponent implements OnInit {
   editedEmail: string = ''; // Variable to store edited email
 
   apiUrl: string = 'http://localhost:5040/api/login';
+  api: string = 'http://localhost:5040/api/profile';
   token: undefined;
 
   constructor(private router: Router, private http: HttpClient) {
@@ -46,7 +47,7 @@ export class ProfileComponent implements OnInit {
       // Add other properties as needed
     };
 
-    this.http.post(this.apiUrl, updatedUserData).subscribe(
+    this.http.post(this.api, updatedUserData).subscribe(
       (response: any) => {
         console.log('User details updated:', response);
         // Optionally, you can update the local user data as well

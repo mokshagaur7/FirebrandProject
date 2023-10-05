@@ -4,11 +4,8 @@
       <div class="form-group">
         <label class="form-control-label" for="input-username">Username</label>
         <div class="input-group">
-          <input *ngIf="!editUsername" type="text" id="input-username" class="form-control form-control-alternative" placeholder="Username" [value]="users[0]?.username" disabled>
-          <input *ngIf="editUsername" type="text" id="input-username" class="form-control form-control-alternative" [(ngModel)]="editedUsername">
-          <div class="input-group-append">
-            <button class="btn btn-secondary" type="button" (click)="toggleEdit('username')">Edit</button>
-          </div>
+          <input type="text" id="input-username" class="form-control form-control-alternative" 
+                 placeholder="Username" [value]="users[0]?.username" disabled>
         </div>
       </div>
     </div>
@@ -16,8 +13,10 @@
       <div class="form-group">
         <label class="form-control-label" for="input-email">Email address</label>
         <div class="input-group">
-          <input *ngIf="!editEmail" type="email" id="input-email" class="form-control form-control-alternative" placeholder="jesse@example.com" [value]="users[0]?.email" disabled>
-          <input *ngIf="editEmail" type="email" id="input-email" class="form-control form-control-alternative" [(ngModel)]="editedEmail">
+          <input *ngIf="!editEmail" type="email" id="input-email" class="form-control form-control-alternative" 
+                 placeholder="jesse@example.com" [value]="users[0]?.email" disabled>
+          <input *ngIf="editEmail" type="email" id="input-email" class="form-control form-control-alternative" 
+                 [(ngModel)]="editedEmail">
           <div class="input-group-append">
             <button class="btn btn-secondary" type="button" (click)="toggleEdit('email')">Edit</button>
           </div>
@@ -27,5 +26,5 @@
   </div>
 </div>
 <div class="text-center">
-  <button *ngIf="editUsername || editEmail" class="btn btn-success" (click)="saveChanges()">Submit</button>
+  <button *ngIf="editEmail" class="btn btn-success" (click)="saveChanges()">Submit</button>
 </div>
